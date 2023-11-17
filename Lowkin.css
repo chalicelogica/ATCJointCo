@@ -100,7 +100,7 @@
 }
 
 .u-section-2 .u-text-1 {
-  font-family: MonumentExtended-Ultralight;
+  font-family: Antonio;
   text-transform: none;
   margin: -448px 9px 0 675px;
 }
@@ -108,13 +108,13 @@
 .u-section-2 .u-image-4 {
   width: 535px;
   height: 153px;
-  margin: 52px 35px 0 auto;
+  margin: 210px 35px 0 auto;
 }
 
 .u-section-2 .u-text-2 {
   font-size: 1.25rem;
-  font-family: MonumentExtended-Ultralight;
-  margin: -153px 623px 28px 96px;
+  font-family: Antonio;
+  margin: -96px 667px 60px 52px;
 }
 
 @media (max-width: 1199px) {
@@ -249,11 +249,11 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1369px;
+    min-height: 1190px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: 559px;
+    margin-top: 391px;
     margin-right: auto;
   }
 
@@ -262,59 +262,67 @@
   }
 
   .u-section-2 .u-text-1 {
-    margin-top: -1080px;
+    margin-top: -912px;
     margin-right: 0;
   }
 
   .u-section-2 .u-image-4 {
-    height: 131px;
-    margin-top: 793px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    height: 107px;
+    width: 379px;
+    margin-top: 821px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-2 .u-text-2 {
-    margin-top: -902px;
+    margin-top: -906px;
     margin-right: 0;
   }
 } .u-section-3 {
   background-image: url("images/gradient.png");
   background-position: 50% 0%;
+  min-height: 500px;
 }
 
 .u-section-3 .u-image-1 {
-  min-height: 500px;
-  background-image: url("images/cluds.png");
-  background-position: 50% 4.84%;
+  object-position: 50% 4.84%;
+  height: 407px;
+  margin-top: 93px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1199px) {
-  .u-section-3 .u-image-1 {
-    min-height: 450px;
+   .u-section-3 {
+    min-height: 412px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-3 .u-image-1 {
-    min-height: 350px;
+   .u-section-3 {
+    min-height: 316px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-3 {
+    min-height: 237px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-image-1 {
+   .u-section-3 {
     min-height: 300px;
+  }
+
+  .u-section-3 .u-image-1 {
+    height: 245px;
+    margin-top: 55px;
   }
 }writing-mode: vertical-rl;@font-face {
   font-family: 'MonumentExtended-Regular';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/MonumentExtended-Regular.ttf);
-}@font-face {
-  font-family: 'MonumentExtended-Ultralight';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/MonumentExtended-Ultralight.ttf);
 }@font-face {
   font-family: 'MonumentExtended-Light';
   font-style: normal;

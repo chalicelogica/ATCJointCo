@@ -54,92 +54,239 @@
    .u-section-1 {
     min-height: 350px;
   }
-}.u-section-2 .u-sheet-1 {
+} .u-section-2 {
+  min-height: 573px;
+}
+
+.u-section-2 .u-gallery-1 {
+  height: 532px;
+  margin-top: 41px;
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-gallery-inner-1 {
+  grid-template-columns: auto auto auto;
+}
+
+.u-section-2 .u-gallery-item-1 {
+  margin-right: 10px;
+}
+
+.u-section-2 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-2 {
+  margin-right: 10px;
+}
+
+.u-section-2 .u-over-slide-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-3 {
+  margin-right: 10px;
+}
+
+.u-section-2 .u-over-slide-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-4 {
+  margin-right: 10px;
+}
+
+.u-section-2 .u-over-slide-4 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-5 {
+  margin-right: 10px;
+}
+
+.u-section-2 .u-over-slide-5 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-6 {
+  margin-right: 10px;
+}
+
+.u-section-2 .u-over-slide-6 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-7 {
+  margin-right: 10px;
+}
+
+.u-section-2 .u-over-slide-7 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-8 {
+  margin-right: 10px;
+}
+
+.u-section-2 .u-over-slide-8 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-nav-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.u-section-2 .u-gallery-nav-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-gallery-inner-1 {
+    grid-gap: 10px 10px;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-gallery-item-1 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-gallery-item-2 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-gallery-item-3 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-gallery-item-4 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-gallery-item-5 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-gallery-item-6 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-gallery-item-7 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-gallery-item-8 {
+    margin-right: 0;
+  }
+}.u-section-3 .u-sheet-1 {
   min-height: 655px;
 }
 
-.u-section-2 .u-layout-wrap-1 {
+.u-section-3 .u-layout-wrap-1 {
   width: 898px;
-  margin: 132px auto 60px;
+  margin: 60px auto;
 }
 
-.u-section-2 .u-image-1 {
+.u-section-3 .u-image-1 {
   min-height: 417px;
-  background-image: linear-gradient(0deg, rgba(21,166,171,0.25), rgba(21,166,171,0.25)), url("images/group1.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/group1.jpg");
   background-position: 50% 50%;
 }
 
-.u-section-2 .u-container-layout-1 {
+.u-section-3 .u-container-layout-1 {
   padding: 30px 0;
 }
 
-.u-section-2 .u-text-1 {
+.u-section-3 .u-text-1 {
   font-family: MonumentExtended-Light;
   font-size: 3.75rem;
   margin: 0;
 }
 
-.u-section-2 .u-btn-1 {
+.u-section-3 .u-btn-1 {
   background-image: none;
   padding: 0;
 }
 
-.u-section-2 .u-image-2 {
+.u-section-3 .u-image-2 {
   min-height: 417px;
-  background-image: linear-gradient(0deg, rgba(117,184,28,0.2), rgba(117,184,28,0.2)), url("images/backofshirt.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/backofshirt.jpg");
   background-position: 50% 50%;
 }
 
-.u-section-2 .u-container-layout-2 {
+.u-section-3 .u-container-layout-2 {
   padding: 30px 0;
 }
 
-.u-section-2 .u-text-2 {
+.u-section-3 .u-text-2 {
   font-family: MonumentExtended-Light;
   font-size: 3.75rem;
-  margin: 134px 0 0;
+  margin: 0;
 }
 
-.u-section-2 .u-btn-2 {
+.u-section-3 .u-btn-2 {
   background-image: none;
   padding: 0;
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-sheet-1 {
+  .u-section-3 .u-sheet-1 {
     min-height: 585px;
-  }
-
-  .u-section-2 .u-layout-wrap-1 {
-    margin-top: 60px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-2 .u-sheet-1 {
+  .u-section-3 .u-sheet-1 {
     min-height: 508px;
   }
 
-  .u-section-2 .u-layout-wrap-1 {
+  .u-section-3 .u-layout-wrap-1 {
     margin-top: 99px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
-  .u-section-2 .u-image-1 {
+  .u-section-3 .u-image-1 {
     min-height: 334px;
   }
 
-  .u-section-2 .u-text-1 {
+  .u-section-3 .u-text-1 {
     font-size: 3rem;
   }
 
-  .u-section-2 .u-image-2 {
+  .u-section-3 .u-image-2 {
     min-height: 334px;
   }
 
-  .u-section-2 .u-text-2 {
+  .u-section-3 .u-text-2 {
     font-size: 3rem;
     width: auto;
     margin-top: 99px;
@@ -147,70 +294,77 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-sheet-1 {
+  .u-section-3 .u-sheet-1 {
     min-height: 635px;
   }
 
-  .u-section-2 .u-layout-wrap-1 {
+  .u-section-3 .u-layout-wrap-1 {
     position: relative;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
-  .u-section-2 .u-image-1 {
+  .u-section-3 .u-image-1 {
     min-height: 501px;
   }
 
-  .u-section-2 .u-image-2 {
+  .u-section-3 .u-image-2 {
     min-height: 501px;
   }
 
-  .u-section-2 .u-text-2 {
+  .u-section-3 .u-text-2 {
     margin-top: 176px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 642px;
+  .u-section-3 .u-sheet-1 {
+    min-height: 877px;
   }
 
-  .u-section-2 .u-image-1 {
+  .u-section-3 .u-layout-wrap-1 {
+    margin-top: 66px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .u-image-1 {
     min-height: 371px;
   }
 
-  .u-section-2 .u-text-1 {
+  .u-section-3 .u-text-1 {
     width: auto;
   }
 
-  .u-section-2 .u-image-2 {
+  .u-section-3 .u-image-2 {
     min-height: 371px;
   }
 
-  .u-section-2 .u-text-2 {
+  .u-section-3 .u-text-2 {
     margin-top: 0;
   }
-} .u-section-3 {
+} .u-section-4 {
   background-image: url("images/gradient.png");
   background-position: 50% 100%;
   min-height: 500px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-3 {
+   .u-section-4 {
     min-height: 450px;
   }
 }
 
 @media (max-width: 991px) {
-   .u-section-3 {
+   .u-section-4 {
     min-height: 350px;
   }
 }
 
 @media (max-width: 575px) {
-   .u-section-3 {
+   .u-section-4 {
     min-height: 300px;
   }
 }@font-face {
