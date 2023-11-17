@@ -8,8 +8,9 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 6rem;
+  background-image: none;
   font-family: MonumentExtended-Regular;
+  font-size: 6rem;
   text-transform: uppercase;
   margin: 225px auto 60px;
 }
@@ -38,8 +39,8 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 1.875rem;
     width: auto;
+    font-size: 1.875rem;
     margin-top: 60px;
   }
 } .u-section-2 {
