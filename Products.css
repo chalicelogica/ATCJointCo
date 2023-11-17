@@ -1,37 +1,46 @@
  .u-section-1 {
-  background-image: url("images/gradient.png");
-  background-position: 50% 0%;
+  background-image: url("images/Asset6.png");
+  background-position: 50% 100%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 650px;
+  min-height: 450px;
 }
 
-.u-section-1 .u-image-1 {
-  object-position: 50% 1.62%;
+.u-section-1 .u-text-1 {
+  font-size: 6rem;
+  font-family: MonumentExtended-Regular;
+  text-transform: uppercase;
+  margin: 225px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 536px;
+    min-height: 371px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 431px;
+    min-height: 284px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 345px;
+    min-height: 213px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 350px;
+    min-height: 300px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+    width: auto;
+    margin-top: 60px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 655px;
@@ -44,7 +53,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 417px;
-  background-image: linear-gradient(0deg, rgba(21,166,171,0.25), rgba(21,166,171,0.25)), url("images/group1.jpg");
+  background-image: linear-gradient(0deg, rgba(21,166,171,0.25), rgba(21,166,171,0.25)), url("images/devo3.jpg");
   background-position: 50% 50%;
 }
 
@@ -60,12 +69,13 @@
 
 .u-section-2 .u-btn-1 {
   background-image: none;
+  font-size: 3.75rem;
   padding: 0;
 }
 
 .u-section-2 .u-image-2 {
   min-height: 417px;
-  background-image: linear-gradient(0deg, rgba(117,184,28,0.2), rgba(117,184,28,0.2)), url("images/backofshirt.jpg");
+  background-image: linear-gradient(0deg, rgba(117,184,28,0.2), rgba(117,184,28,0.2)), url("images/lowkin2.jpg");
   background-position: 50% 50%;
 }
 
@@ -76,11 +86,12 @@
 .u-section-2 .u-text-2 {
   font-family: MonumentExtended-Light;
   font-size: 3.75rem;
-  margin: 134px 0 0;
+  margin: 113px 0 0;
 }
 
 .u-section-2 .u-btn-2 {
   background-image: none;
+  font-size: 3.75rem;
   padding: 0;
 }
 
@@ -109,18 +120,8 @@
     min-height: 334px;
   }
 
-  .u-section-2 .u-text-1 {
-    font-size: 3rem;
-  }
-
   .u-section-2 .u-image-2 {
     min-height: 334px;
-  }
-
-  .u-section-2 .u-text-2 {
-    font-size: 3rem;
-    width: auto;
-    margin-top: 99px;
   }
 }
 
@@ -140,19 +141,17 @@
   .u-section-2 .u-image-2 {
     min-height: 501px;
   }
-
-  .u-section-2 .u-text-2 {
-    margin-top: 176px;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 494px;
+    min-height: 684px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    width: 340px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-2 .u-image-1 {
@@ -160,15 +159,26 @@
   }
 
   .u-section-2 .u-text-1 {
+    font-size: 1.875rem;
     width: auto;
   }
 
+  .u-section-2 .u-btn-1 {
+    font-size: 3rem;
+  }
+
   .u-section-2 .u-image-2 {
-    min-height: 312px;
+    min-height: 294px;
   }
 
   .u-section-2 .u-text-2 {
+    font-size: 1.875rem;
+    width: auto;
     margin-top: 0;
+  }
+
+  .u-section-2 .u-btn-2 {
+    font-size: 3rem;
   }
 } .u-section-3 {
   background-image: url("images/gradient.png");
@@ -203,6 +213,11 @@
   .u-section-3 .u-image-1 {
     min-height: 207px;
   }
+}@font-face {
+  font-family: 'MonumentExtended-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/MonumentExtended-Regular.ttf);
 }@font-face {
   font-family: 'MonumentExtended-Light';
   font-style: normal;
