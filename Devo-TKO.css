@@ -8,8 +8,9 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 6rem;
+  background-image: none;
   font-family: MonumentExtended-Regular;
+  font-size: 3rem;
   margin: 225px auto 60px;
 }
 
@@ -38,6 +39,7 @@
 
   .u-section-1 .u-text-1 {
     width: auto;
+    font-family: MonumentExtended-Light;
     font-size: 1.875rem;
     margin-top: 60px;
   }
