@@ -209,8 +209,8 @@
   font-weight: 400;
   src: url(fonts/MonumentExtended-Light.ttf);
 }@font-face {
-  font-family: 'MonumentExtended-Ultralight';
+  font-family: 'MonumentExtended-Regular';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/MonumentExtended-Ultralight.ttf);
+  src: url(fonts/MonumentExtended-Regular.ttf);
 }
