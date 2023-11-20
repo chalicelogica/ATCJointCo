@@ -207,11 +207,16 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1508px;
+    min-height: 1208px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 63px;
   }
 
   .u-section-2 .u-list-1 {
-    margin-bottom: 0;
+    margin-top: 35px;
+    margin-bottom: 28px;
   }
 
   .u-section-2 .u-repeater-1 {
@@ -222,16 +227,21 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1677px;
+    min-height: 1360px;
   }
 
   .u-section-2 .u-text-1 {
     font-size: 0.875rem;
-    margin-top: 111px;
+    margin-top: 60px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 80px;
   }
 
   .u-section-2 .u-list-1 {
-    margin-bottom: 60px;
+    margin-top: 69px;
+    margin-bottom: 59px;
   }
 
   .u-section-2 .u-repeater-1 {
@@ -257,27 +267,19 @@
   background-position: 50% 100%;
 }
 
+.u-section-3 .u-sheet-1 {
+  min-height: 300px;
+}
+
 .u-section-3 .u-image-1 {
-  min-height: 500px;
-  background-image: url("images/weed.png");
-  background-position: 50% 50%;
-}
-
-@media (max-width: 1199px) {
-  .u-section-3 .u-image-1 {
-    min-height: 450px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-3 .u-image-1 {
-    min-height: 350px;
-  }
+  width: 500px;
+  height: 284px;
+  margin: 16px -50px 0;
 }
 
 @media (max-width: 575px) {
   .u-section-3 .u-image-1 {
-    min-height: 300px;
+    width: 475px;
   }
 }writing-mode: vertical-rl;@font-face {
   font-family: 'MonumentExtended-Regular';

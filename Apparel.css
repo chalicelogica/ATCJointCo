@@ -58,13 +58,13 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 927px;
+  min-height: 811px;
 }
 
 .u-section-2 .u-gallery-1 {
   height: 633px;
   width: 671px;
-  margin: 84px auto 0;
+  margin: 48px auto 0;
 }
 
 .u-section-2 .u-carousel-item-1 {
@@ -209,7 +209,7 @@
 
 .u-section-2 .u-text-1 {
   font-family: Antonio;
-  margin: 30px auto 60px;
+  margin: 30px auto 48px;
 }
 
 @media (max-width: 1199px) {
@@ -311,8 +311,14 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 550px;
+  }
+
   .u-section-2 .u-gallery-1 {
-    width: 400px;
+    height: 404px;
+    width: 344px;
+    margin-top: 38px;
   }
 
   .u-section-2 .u-carousel-thumbnail-1 {
@@ -358,6 +364,12 @@
   .u-section-2 .u-carousel-thumbnail-9 {
     width: 44px;
     height: 44px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    margin-top: 38px;
+    margin-bottom: 38px;
   }
 } .u-section-3 {
   background-image: url("images/gradient.png");

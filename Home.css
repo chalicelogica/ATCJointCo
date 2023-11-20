@@ -5,9 +5,9 @@
 }
 
 .u-section-1 .u-image-1 {
-  width: 1239px;
-  height: 500px;
-  margin: 3px auto 0;
+  height: 497px;
+  margin-top: 3px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1199px) {
@@ -17,9 +17,6 @@
 
   .u-section-1 .u-image-1 {
     height: 450px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
   }
 }
 
@@ -31,9 +28,6 @@
   .u-section-1 .u-image-1 {
     height: 345px;
     margin-bottom: 2px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 }
 
@@ -44,9 +38,6 @@
 
   .u-section-1 .u-image-1 {
     height: 350px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 }
 

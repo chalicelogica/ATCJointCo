@@ -32,7 +32,8 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
-    margin: 169px 0 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -50,7 +51,7 @@
 
 .u-section-2 .u-layout-wrap-1 {
   width: 898px;
-  margin: 60px auto 60px 95px;
+  margin: 131px auto;
 }
 
 .u-section-2 .u-image-1 {
@@ -97,12 +98,6 @@
   padding: 0;
 }
 
-@media (max-width: 1199px) {
-  .u-section-2 .u-layout-wrap-1 {
-    margin-left: auto;
-  }
-}
-
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
     min-height: 572px;
@@ -136,13 +131,6 @@
     min-height: 1102px;
   }
 
-  .u-section-2 .u-layout-wrap-1 {
-    margin-bottom: 56px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-2 .u-image-1 {
     min-height: 501px;
   }
@@ -154,10 +142,12 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 916px;
+    min-height: 893px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
+    margin-top: 51px;
+    margin-bottom: 51px;
     position: relative;
     width: auto;
     margin-right: initial;
@@ -184,29 +174,41 @@
 } .u-section-3 {
   background-image: url("images/gradient.png");
   background-position: 50% 100%;
-}
-
-.u-section-3 .u-image-1 {
-  background-image: url("images/weed.png");
-  background-position: 50% 50%;
   min-height: 500px;
 }
 
+.u-section-3 .u-image-1 {
+  height: 492px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
 @media (max-width: 1199px) {
-  .u-section-3 .u-image-1 {
-    min-height: 450px;
+   .u-section-3 {
+    min-height: 412px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-3 .u-image-1 {
-    min-height: 350px;
+   .u-section-3 {
+    min-height: 316px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-3 {
+    min-height: 237px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-image-1 {
+   .u-section-3 {
     min-height: 300px;
+  }
+
+  .u-section-3 .u-image-1 {
+    height: 269px;
+    margin-top: 31px;
   }
 }@font-face {
   font-family: 'MonumentExtended-Regular';
