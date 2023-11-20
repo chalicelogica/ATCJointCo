@@ -501,10 +501,11 @@
   }
 
   .u-section-3 .u-text-2 {
+    font-size: 1.25rem;
     font-family: Antonio;
     margin-top: 46px;
-    margin-right: 18px;
-    margin-left: -18px;
+    margin-left: 0;
+    margin-right: 0;
   }
 } .u-section-4 {
   background-image: url("images/gradient.png");
