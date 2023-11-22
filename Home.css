@@ -563,26 +563,54 @@
   .u-section-3 .u-text-2 {
     margin-top: 0;
   }
-} .u-section-4 {
+}.u-section-4 .u-sheet-1 {
+  min-height: 501px;
+}
+
+.u-section-4 .u-text-1 {
+  font-weight: 700;
+  margin: 59px auto 0;
+}
+
+.u-section-4 .u-form-1 {
+  width: 570px;
+  margin: 29px auto 59px;
+}
+
+.u-section-4 .u-btn-1 {
+  background-image: none;
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-form-1 {
+    width: 340px;
+  }
+} .u-section-5 {
   background-image: url("images/gradient.png");
   background-position: 50% 100%;
   min-height: 500px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-4 {
+   .u-section-5 {
     min-height: 450px;
   }
 }
 
 @media (max-width: 991px) {
-   .u-section-4 {
+   .u-section-5 {
     min-height: 350px;
   }
 }
 
 @media (max-width: 575px) {
-   .u-section-4 {
+   .u-section-5 {
     min-height: 300px;
   }
 }@font-face {

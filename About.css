@@ -31,8 +31,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
-    font-size: 1.875rem;
-    font-family: MonumentExtended-Ultralight;
+    font-family: MonumentExtended-Light;
   }
 } .u-section-2 {
   background-image: none;
@@ -265,21 +264,51 @@
 } .u-section-3 {
   background-image: url("images/gradient.png");
   background-position: 50% 100%;
-}
-
-.u-section-3 .u-sheet-1 {
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .u-section-3 .u-image-1 {
-  width: 500px;
-  height: 284px;
-  margin: 16px -50px 0;
+  height: 484px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-3 {
+    min-height: 450px;
+  }
+
+  .u-section-3 .u-image-1 {
+    height: 438px;
+    margin-top: 12px;
+    object-position: 50% 27.41%;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-3 {
+    min-height: 350px;
+  }
+
+  .u-section-3 .u-image-1 {
+    height: 324px;
+    margin-top: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-image-1 {
+    height: 320px;
+  }
 }
 
 @media (max-width: 575px) {
+   .u-section-3 {
+    min-height: 300px;
+  }
+
   .u-section-3 .u-image-1 {
-    width: 475px;
+    height: 263px;
   }
 }writing-mode: vertical-rl;@font-face {
   font-family: 'MonumentExtended-Regular';
