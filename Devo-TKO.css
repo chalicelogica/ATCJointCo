@@ -43,18 +43,18 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 781px;
+  min-height: 782px;
 }
 
 .u-section-2 .u-text-1 {
-  font-family: MonumentExtended-Ultralight;
+  font-family: Antonio;
   text-transform: none;
   margin: 63px 0 0 684px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
   width: 617px;
-  margin: -520px auto 0 29px;
+  margin: -313px auto 0 37px;
 }
 
 .u-section-2 .u-image-1 {
@@ -92,8 +92,8 @@
 
 .u-section-2 .u-text-2 {
   font-size: 1.25rem;
-  font-family: MonumentExtended-Ultralight;
-  margin: 76px 644px 11px 73px;
+  font-family: Antonio;
+  margin: 46px 654px 60px 63px;
 }
 
 @media (max-width: 1199px) {
@@ -161,7 +161,9 @@
   }
 
   .u-section-2 .u-text-2 {
-    margin: 64px 297px 60px 0;
+    margin-top: 64px;
+    margin-right: 297px;
+    margin-left: 0;
   }
 }
 
@@ -220,7 +222,6 @@
   }
 
   .u-section-2 .u-text-1 {
-    font-family: Antonio;
     margin-top: 63px;
     margin-right: 0;
   }
@@ -245,7 +246,6 @@
   }
 
   .u-section-2 .u-text-2 {
-    font-family: Antonio;
     margin-top: -703px;
     margin-right: 0;
   }
@@ -309,13 +309,13 @@
 }
 
 .u-section-3 .u-text-1 {
-  font-family: MonumentExtended-Ultralight;
+  font-family: Antonio;
   margin: -356px 662px 0 78px;
 }
 
 .u-section-3 .u-text-2 {
   font-size: 1rem;
-  font-family: MonumentExtended-Ultralight;
+  font-family: Antonio;
   margin: 25px 662px 60px 78px;
 }
 
@@ -494,14 +494,12 @@
   }
 
   .u-section-3 .u-text-1 {
-    font-family: Antonio;
     margin-top: -593px;
     margin-left: 0;
   }
 
   .u-section-3 .u-text-2 {
     font-size: 1.25rem;
-    font-family: Antonio;
     margin-top: 46px;
     margin-left: 0;
     margin-right: 0;
@@ -572,11 +570,6 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/MonumentExtended-Regular.ttf);
-}@font-face {
-  font-family: 'MonumentExtended-Ultralight';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/MonumentExtended-Ultralight.ttf);
 }@font-face {
   font-family: 'MonumentExtended-Light';
   font-style: normal;
