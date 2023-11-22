@@ -349,9 +349,7 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-gallery-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 475px;
   }
 
   .u-section-2 .u-gallery-item-1 {
@@ -416,6 +414,14 @@
 
   .u-section-2 .u-gallery-item-16 {
     margin-right: 0;
+  }
+
+  .u-section-2 .u-gallery-nav-1 {
+    left: 50px;
+  }
+
+  .u-section-2 .u-gallery-nav-2 {
+    right: 50px;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 655px;
