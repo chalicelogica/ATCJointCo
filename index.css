@@ -434,7 +434,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 417px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('images/group1.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('images/backofshirt.jpg');
   background-position: 50% 50%;
 }
 
@@ -445,36 +445,10 @@
 .u-section-3 .u-text-1 {
   font-family: MonumentExtended-Light;
   font-size: 3.75rem;
-  margin: 112px 0 0;
-}
-
-.u-section-3 .u-btn-1 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-3 .u-text-2 {
-  width: 201px;
-  margin: 20px auto 0;
-}
-
-.u-section-3 .u-image-2 {
-  min-height: 417px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('images/backofshirt.jpg');
-  background-position: 50% 50%;
-}
-
-.u-section-3 .u-container-layout-2 {
-  padding: 30px 0;
-}
-
-.u-section-3 .u-text-3 {
-  font-family: MonumentExtended-Light;
-  font-size: 3.75rem;
   margin: 0;
 }
 
-.u-section-3 .u-btn-2 {
+.u-section-3 .u-btn-1 {
   background-image: none;
   padding: 0;
 }
@@ -503,14 +477,6 @@
 
   .u-section-3 .u-text-1 {
     font-size: 3rem;
-  }
-
-  .u-section-3 .u-image-2 {
-    min-height: 334px;
-  }
-
-  .u-section-3 .u-text-3 {
-    font-size: 3rem;
     width: auto;
     margin-top: 99px;
   }
@@ -532,11 +498,7 @@
     min-height: 501px;
   }
 
-  .u-section-3 .u-image-2 {
-    min-height: 501px;
-  }
-
-  .u-section-3 .u-text-3 {
+  .u-section-3 .u-text-1 {
     margin-top: 176px;
   }
 }
@@ -554,18 +516,10 @@
   }
 
   .u-section-3 .u-image-1 {
-    min-height: 348px;
-  }
-
-  .u-section-3 .u-text-1 {
-    width: auto;
-  }
-
-  .u-section-3 .u-image-2 {
     min-height: 371px;
   }
 
-  .u-section-3 .u-text-3 {
+  .u-section-3 .u-text-1 {
     margin-top: 0;
   }
 }.u-section-4 .u-sheet-1 {
